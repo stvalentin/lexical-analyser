@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE346241CBC1258008A9B43 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE346231CBC1258008A9B43 /* main.swift */; };
+		FEE3462B1CBC1291008A9B43 /* Tokenize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE3462A1CBC1291008A9B43 /* Tokenize.swift */; };
+		FEE3462D1CBC3F25008A9B43 /* LexicalAnalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE3462C1CBC3F25008A9B43 /* LexicalAnalizer.swift */; };
+		FEE3462F1CBC43F6008A9B43 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE3462E1CBC43F6008A9B43 /* Scanner.swift */; };
+		FEE346311CBC4BE8008A9B43 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE346301CBC4BE8008A9B43 /* Token.swift */; };
+		FEF8C9C21CF844B0001EBE81 /* testsyntax.c in Sources */ = {isa = PBXBuildFile; fileRef = FEF8C9C01CF844B0001EBE81 /* testsyntax.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEE3461E1CBC1258008A9B43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FEC230B71CC2CA3C00BF0C51 /* teste */ = {isa = PBXFileReference; lastKnownFileType = folder; name = teste; path = "tehnici-compilare/teste"; sourceTree = "<group>"; };
+		FEE346201CBC1258008A9B43 /* tehnici-compilare */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tehnici-compilare"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE346231CBC1258008A9B43 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FEE3462A1CBC1291008A9B43 /* Tokenize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokenize.swift; sourceTree = "<group>"; };
+		FEE3462C1CBC3F25008A9B43 /* LexicalAnalizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LexicalAnalizer.swift; sourceTree = "<group>"; };
+		FEE3462E1CBC43F6008A9B43 /* Scanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		FEE346301CBC4BE8008A9B43 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		FEF8C9BF1CF844B0001EBE81 /* tehnici-compilare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tehnici-compilare-Bridging-Header.h"; sourceTree = "<group>"; };
+		FEF8C9C01CF844B0001EBE81 /* testsyntax.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testsyntax.c; sourceTree = "<group>"; };
+		FEF8C9C11CF844B0001EBE81 /* testsyntax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testsyntax.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE3461D1CBC1258008A9B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE346171CBC1258008A9B43 = {
+			isa = PBXGroup;
+			children = (
+				FEC230B71CC2CA3C00BF0C51 /* teste */,
+				FEE346221CBC1258008A9B43 /* tehnici-compilare */,
+				FEE346211CBC1258008A9B43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE346211CBC1258008A9B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE346201CBC1258008A9B43 /* tehnici-compilare */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE346221CBC1258008A9B43 /* tehnici-compilare */ = {
+			isa = PBXGroup;
+			children = (
+				FEE346231CBC1258008A9B43 /* main.swift */,
+				FEE3462C1CBC3F25008A9B43 /* LexicalAnalizer.swift */,
+				FEE3462A1CBC1291008A9B43 /* Tokenize.swift */,
+				FEE3462E1CBC43F6008A9B43 /* Scanner.swift */,
+				FEE346301CBC4BE8008A9B43 /* Token.swift */,
+				FEF8C9C01CF844B0001EBE81 /* testsyntax.c */,
+				FEF8C9C11CF844B0001EBE81 /* testsyntax.h */,
+				FEF8C9BF1CF844B0001EBE81 /* tehnici-compilare-Bridging-Header.h */,
+			);
+			path = "tehnici-compilare";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE3461F1CBC1258008A9B43 /* tehnici-compilare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE346271CBC1258008A9B43 /* Build configuration list for PBXNativeTarget "tehnici-compilare" */;
+			buildPhases = (
+				FEE3461C1CBC1258008A9B43 /* Sources */,
+				FEE3461D1CBC1258008A9B43 /* Frameworks */,
+				FEE3461E1CBC1258008A9B43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tehnici-compilare";
+			productName = "tehnici-compilare";
+			productReference = FEE346201CBC1258008A9B43 /* tehnici-compilare */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE346181CBC1258008A9B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Stanciu Valentin";
+				TargetAttributes = {
+					FEE3461F1CBC1258008A9B43 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FEE3461B1CBC1258008A9B43 /* Build configuration list for PBXProject "tehnici-compilare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEE346171CBC1258008A9B43;
+			productRefGroup = FEE346211CBC1258008A9B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE3461F1CBC1258008A9B43 /* tehnici-compilare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE3461C1CBC1258008A9B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE3462B1CBC1291008A9B43 /* Tokenize.swift in Sources */,
+				FEE346311CBC4BE8008A9B43 /* Token.swift in Sources */,
+				FEF8C9C21CF844B0001EBE81 /* testsyntax.c in Sources */,
+				FEE3462D1CBC3F25008A9B43 /* LexicalAnalizer.swift in Sources */,
+				FEE3462F1CBC43F6008A9B43 /* Scanner.swift in Sources */,
+				FEE346241CBC1258008A9B43 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEE346251CBC1258008A9B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEE346261CBC1258008A9B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEE346281CBC1258008A9B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tehnici-compilare/tehnici-compilare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEE346291CBC1258008A9B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tehnici-compilare/tehnici-compilare-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE3461B1CBC1258008A9B43 /* Build configuration list for PBXProject "tehnici-compilare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE346251CBC1258008A9B43 /* Debug */,
+				FEE346261CBC1258008A9B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE346271CBC1258008A9B43 /* Build configuration list for PBXNativeTarget "tehnici-compilare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE346281CBC1258008A9B43 /* Debug */,
+				FEE346291CBC1258008A9B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE346181CBC1258008A9B43 /* Project object */;
+}
