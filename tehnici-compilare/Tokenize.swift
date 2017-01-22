@@ -304,6 +304,28 @@ class TokenizeLiteral: Tokenize {
             validValue.append(character)
         }
         
+        print("--");
+        print(character);
+        print(validValue.substringFromIndex(validValue.endIndex.advancedBy(-2)).debugDescription);
+        print("-------");
+        
+        let chhh = validValue.substringFromIndex(validValue.endIndex.advancedBy(-2));
+        
+        
+        
+        print(ch);
+        print(ch.debugDescription);
+        print("=======");
+        
+        if (character == "\n" || character == "\r\n" )
+            && ch.debugDescription != "\\\n"
+            //&& validValue.substringFromIndex(validValue.endIndex.advancedBy(-2)).debugDescription != "\"\n" 
+        {
+            self.status = .Continue;
+            return false;
+        }
+        
+        
         
         if (validValue.characters.count == 1 && !validChars.contains(character)) {
             self.status = .Continue;

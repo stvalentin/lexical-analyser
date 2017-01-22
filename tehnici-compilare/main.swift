@@ -32,7 +32,8 @@ if let response = readLine() {
     
     let analizator = LexicalAnalizer(input: content);
     
-    var result: Set<Token>;
+    //var result: Set<Token>;
+    var result: [Token];
     result = analizator.run();
     
     var output = "";

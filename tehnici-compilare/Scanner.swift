@@ -65,9 +65,10 @@ class Scanner {
             while (automat && index <= input.endIndex.advancedBy(-1)) {
                 
                 var character = input[index];
-                if (input[index] == "\n" || input[index] == "\r\n") {
-                    character = Character.init(" ");
-                }
+                
+//                if (input[index] == "\n" || input[index] == "\r\n") {
+//                    character = Character.init(" ");
+//                }
                 
                 
                 automat = token.addState(character, isFinal: tempCursorPosition == input.characters.count);

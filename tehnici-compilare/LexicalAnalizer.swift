@@ -30,10 +30,11 @@ class LexicalAnalizer {
     
     //obiecul scanner va retine in membrii sai 
     //data pozitia in codul sursa in care a ajuns cu scanarea
-    func run() -> Set<Token> {
+    //func run() -> Set<Token> {
+    func run() -> [Token] {
 
         let scanner = Scanner(input: self.input);
-        var setTokens = Set<Token>();
+        var setTokens: [Token] = [];
         
         while scanner.shouldContinue() {
             let parsedToken =   scanner.getToken();
@@ -41,8 +42,8 @@ class LexicalAnalizer {
             if (parsedToken.type.tokenType == .Space || parsedToken.type.tokenType == .Comment) {
                 continue;
             }
-            
-            setTokens.insert(parsedToken);
+            setTokens.append(parsedToken);
+            //setTokens.insert(parsedToken);
         }
         
         return setTokens;

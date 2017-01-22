@@ -32,7 +32,7 @@
             startingLineNumber = "60"
             endingLineNumber = "60"
             landmarkName = "getToken()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tehnici-compilare/Tokenize.swift"
-            timestampString = "486065031.076766"
+            timestampString = "486128348.488435"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "392"
-            endingLineNumber = "392"
-            landmarkName = "addState(_:isFinal:)"
-            landmarkType = "5">
+            startingLineNumber = "413"
+            endingLineNumber = "413"
+            landmarkName = "addState(character:isFinal:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -64,7 +64,7 @@
             startingLineNumber = "59"
             endingLineNumber = "59"
             landmarkName = "getToken()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

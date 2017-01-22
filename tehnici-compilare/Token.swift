@@ -24,6 +24,8 @@ struct TokenError: ErrorType {
     func getType() {
         
     }
+    
+    
 }
 
 
@@ -58,6 +60,15 @@ struct Token: Hashable {
     }
 }
 
-func ==(lhs: Token, rhs: Token) -> Bool {
+func == (lhs: Token, rhs: Token) -> Bool {
     return lhs.TypeValue == rhs.TypeValue
+}
+
+
+
+
+
+
+if ( x == y) {
+    
 }
